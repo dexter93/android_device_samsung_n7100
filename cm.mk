@@ -21,6 +21,9 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-N7100
 PRODUCT_MANUFACTURER := samsung
 
+# Configure dalvik heap
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=t03gxx \
