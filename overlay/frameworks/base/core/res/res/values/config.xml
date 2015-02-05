@@ -269,6 +269,6 @@
          one of the listes values in frameworks/base/core/res/res/values/cm_arrays.xml
          for "perf_profile_values" array. Leave it blank if the device do not support
          performance profiles  -->
-    <string name="config_perf_profile_default_entry">1</string>
+    <string name="config_perf_profile_default_entry">2</string>
 
 </resources>
