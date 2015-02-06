@@ -251,6 +251,9 @@
 
     <!-- Boolean to enable stk functionality on Samsung phones -->
     <bool name="config_samsung_stk">true</bool>
+    
+    <!-- Boolean to enable Stylus gestures -->
+    <bool name="config_stylusGestures">true</bool>
 
     <!-- Is the device LTE capable -->
     <bool name="config_lte_capable">false</bool>
