@@ -19,6 +19,9 @@
 
 -include device/samsung/smdk4412-common/BoardCommonConfig.mk
 
+# Boot animation
+TARGET_BOOTANIMATION_USE_RGB565 := true
+
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6262
@@ -44,3 +47,4 @@ TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/n7100/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
+DEVICE_RESOLUTION := 720x1280
