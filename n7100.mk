@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/tiny_hw.xml:system/etc/sound/t03g
+    $(LOCAL_PATH)/configs/tiny_hw.xml:system/etc/sound/n7100
 
 # Camera Wrapper
 PRODUCT_PACKAGES += \
