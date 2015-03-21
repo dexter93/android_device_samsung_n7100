@@ -32,3 +32,6 @@ PRODUCT_DEVICE := n7100
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-N7100
+
+# Configure dalvik heap
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
