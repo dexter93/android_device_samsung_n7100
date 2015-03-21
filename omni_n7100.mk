@@ -1,5 +1,5 @@
-# Copyright (C) 2013 OmniROM Project
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2015 OmniROM Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,8 +16,11 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# bootanimation
-TARGET_BOOTANIMATION_SIZE := 480x320
+# Specify phone tech before including full_phone
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit some common Omni stuff
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from our omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
