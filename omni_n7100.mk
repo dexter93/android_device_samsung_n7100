@@ -19,9 +19,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-# Inherit some common Omni stuff
-$(call inherit-product, vendor/omni/config/common.mk)
-
 # Inherit from our omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
