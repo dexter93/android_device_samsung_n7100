@@ -11,9 +11,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/n7100/full_n7100.mk)
 
-#Custom build tag
-TARGET_UNOFFICIAL_BUILD_ID := NIGHTLY
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := n7100
 PRODUCT_NAME := cm_n7100
